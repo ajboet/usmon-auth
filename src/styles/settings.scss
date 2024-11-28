@@ -1,0 +1,12 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://vuetifyjs.com/features/sass-variables/`
+@use 'vuetify/settings' with (
+  $body-font-family: 'Nunito Sans',
+  $list-item-icon-opacity: 100,
+  $button-colored-disabled: false
+);
